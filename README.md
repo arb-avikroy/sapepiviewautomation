@@ -36,12 +36,11 @@ Open the VS Code terminal (`Ctrl + ` `) and run:
 ```bash
 pip install pandas openpyxl
 ```
-### 2. Excel Data Structure
+### 2. Excel Data Structure 
 Prepare an Excel file named PortalXML.xlsx (any name, need to modify in the python code before running) in the root folder with the following columns:
-Column	Description	              Example
-ID	    Technical ID (No spaces)	IVU_DASHBOARD_FIN
-Title	  Display Name in Portal	  Finance Dashboard
-URL	    Full Target Link	        https://google.com
+Column,	Description, Example
+ID, Title, URL 
+ID_google,  Google, https://google.com      
 
 ### 3. Python Script
 In git

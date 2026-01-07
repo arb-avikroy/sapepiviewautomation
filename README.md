@@ -1,7 +1,7 @@
 # SAP Enterprise Portal iView Creation Automation
 iView creation automation using Python and XML - XML Content and Actions
 
-This project automates the mass creation of **SAP Portal URL iViews** and **KM (Knowledge Management) Links**. It uses Python to transform data from an Excel sheet into SAP's proprietary `GenericCreator` XML format.
+This project automates the mass creation of **SAP Portal URL iViews** . It uses Python to transform data from an Excel sheet into SAP's proprietary `GenericCreator` XML format.
 
 ## 🌟 Features
 - **Mass Creation:** Generate 100+ iViews in matter of few minutes (Complete Workflow)

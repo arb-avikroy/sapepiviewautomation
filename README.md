@@ -38,9 +38,7 @@ pip install pandas openpyxl
 ```
 ### 2. Excel Data Structure 
 Prepare an Excel file named PortalXML.xlsx (any name, need to modify in the python code before running) in the root folder with the following columns:
-Column,	Description, Example
-ID, Title, URL 
-ID_google,  Google, https://google.com      
+ID -> Title -> URL  
 
 ### 3. Python Script
 In git

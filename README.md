@@ -44,19 +44,19 @@ ID -> Title -> URL
 In git
 
 ### 4. Execution & Upload
-Run Script: In VS Code, run python generate_portal.py.
-Locate File: A file named portal_upload.xml will appear in your folder.
-Login to SAP Portal: Go to System Administration > Transport > XML Content and Actions.
-Import:
-Click the Browse button.
-Select portal_upload.xml.
-Click Upload.
-Verify: Check the log for "Status: Success" and find your new iViews in the Portal Content Studio.
+-- Run Script: In VS Code, run python generate_portal.py.
+-- Locate File: A file named portal_upload.xml will appear in your folder.
+-- Login to SAP Portal: Go to System Administration > Transport > XML Content and Actions.
+-- Import:
+-- Click the Browse button.
+-- Select portal_upload.xml.
+-- Click Upload.
+-- Verify: Check the log for "Status: Success" and find your new iViews in the Portal Content Studio.
 
 ### Important Notes
-Closing Excel: The script will fail with a Permission Denied error if the Excel file is open while running the script.
-PCD Permissions: After creation, ensure you assign End-User Permissions to the folder in Portal Content Studio so users can see the links.
-HTTPS: Ensure all URLs start with https:// to avoid browser security blocks (Mixed Content).
+-- Closing Excel: The script will fail with a Permission Denied error if the Excel file is open while running the script.
+-- PCD Permissions: After creation, ensure you assign End-User Permissions to the folder in Portal Content Studio so users can see the links.
+-- HTTPS: Ensure all URLs start with https:// to avoid browser security blocks (Mixed Content).
 
 
 ### Files:

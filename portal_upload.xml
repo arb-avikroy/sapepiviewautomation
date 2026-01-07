@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GenericCreator author="SAP" version="Portal 1.0" mode="execute" report.level="debug" default.locale="en" createMode="1" ignore="false">
+
+    <Context parent="portal_content/" name="id_Google" 
+             objectClass="com.sapportals.portal.iview" 
+             template="par:/applications/com.sap.portal.httpconnectivity.urliviews/components/runtime" 
+             title="Google"
+             create_as="0">
+        
+        <Attributes>
+            <Attribute name="url" type="string">
+                <AttributeValue value="https://www.google.com"/>
+            </Attribute>
+            <Attribute name="com.sap.portal.navigation.ShowType" type="string">
+                <AttributeValue value="1"/> </Attribute>
+            <Attribute name="com.sap.portal.iview.HeightType" type="string" isOrdered="true">
+                <AttributeValue value="FULL_PAGE"/>
+            </Attribute>
+            <Attribute name="ShowBorder" type="string">
+                <AttributeValue value="true"/>
+            </Attribute>
+            <Attribute name="ForcedExternalWindow" type="string">
+                <AttributeValue value="true"/>
+            </Attribute>
+            <Attribute name="EnableActivityReporting" type="string">
+                <AttributeValue value="true"/>
+            </Attribute>
+        </Attributes>
+    </Context>
+
+    <Context parent="portal_content/" name="id_SAP" 
+             objectClass="com.sapportals.portal.iview" 
+             template="par:/applications/com.sap.portal.httpconnectivity.urliviews/components/runtime" 
+             title="SAP"
+             create_as="0">
+        
+        <Attributes>
+            <Attribute name="url" type="string">
+                <AttributeValue value="https://www.sap.com"/>
+            </Attribute>
+            <Attribute name="com.sap.portal.navigation.ShowType" type="string">
+                <AttributeValue value="1"/> </Attribute>
+            <Attribute name="com.sap.portal.iview.HeightType" type="string" isOrdered="true">
+                <AttributeValue value="FULL_PAGE"/>
+            </Attribute>
+            <Attribute name="ShowBorder" type="string">
+                <AttributeValue value="true"/>
+            </Attribute>
+            <Attribute name="ForcedExternalWindow" type="string">
+                <AttributeValue value="true"/>
+            </Attribute>
+            <Attribute name="EnableActivityReporting" type="string">
+                <AttributeValue value="true"/>
+            </Attribute>
+        </Attributes>
+    </Context>
+
+</GenericCreator>
